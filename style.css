@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #012843;
+    overflow-y: hidden;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    margin: 20px 70px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    padding: 0px 15px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color:#00A79B;
+  }
+
+
+.content{
+    overflow: hidden;
+    font-family: 'Fjalla One', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left{
+    color: #ffffff;
+    margin: 10em 10em;
+}
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+.right{
+    margin: 0px;
+    width: 100vh;
+    
+}
+
+    .Circuit{
+        width: 190%;
+        position: relative;
+        right: 28em;
+        opacity: .20;
+    }
+
+    .Laptop{
+        width: 35%;
+        position: absolute;
+        bottom: 8em;
+        left: 55em;
+    }
